@@ -1,0 +1,30 @@
+{
+  "name": "Dollo Meme Gallery",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "16": "icon-32.png",
+      "32": "icon-32.png",
+      "48": "icon-32.png"
+    },
+    "default_title": "Dollo Meme Gallery"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["https://www.dollogallery.xyz/*", "https://dollocdn.xyz/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*", "https://x.com/*", "https://pro.x.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["dollo.png"],
+      "matches": ["https://twitter.com/*", "https://x.com/*", "https://pro.x.com/*"]
+    }
+  ]
+}
