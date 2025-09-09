@@ -10,7 +10,6 @@
     },
     "default_title": "Dollo Meme Gallery"
   },
-  "permissions": ["scripting"],
   "host_permissions": ["https://www.dollogallery.xyz/*", "https://dollocdn.xyz/*"],
   "background": {
     "service_worker": "background.js"
