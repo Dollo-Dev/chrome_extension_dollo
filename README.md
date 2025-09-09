@@ -5,6 +5,7 @@ It includes filters, a search bar, and a clean modal interface.
 ---
 
 ✨ Features
+
 ✅ Adds a custom meme button in the Twitter composer toolbar.
 ✅ Opens a modal window with:
 Filters (Emote, Meme, 1/1, Gm, Gn)
@@ -17,6 +18,7 @@ A search bar for filtering memes by title
 ---
 
 📂 Project Structure
+
 meme-injector-extension/
 ├── manifest.json
 ├── background.js
@@ -28,8 +30,9 @@ meme-injector-extension/
 ---
 
 🚀 Installation
+
 Clone or download this repository.
-git clone https://github.com/your-username/meme-injector-extension.git
+git clone https://github.com/Dollo-Dev/chrome_extension_dollo.git
 Open Chrome and go to: chrome://extensions/
 Enable Developer mode (top right).
 Click Load unpacked and select the project folder.
